@@ -28,6 +28,7 @@
 		970856C32278A2B000175A1B /* TestOCastXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970856C22278A2B000175A1B /* TestOCastXMLParser.swift */; };
 		9726F0BA20EFA6E400BAE3BC /* WifiSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 9726F0B920EFA6E400BAE3BC /* WifiSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9751ADC420F655C200815600 /* ReferenceDriverErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9751ADC320F655C200815600 /* ReferenceDriverErrorCode.swift */; };
+		977248A42281AC3C00D09869 /* OCastLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977248A32281AC3C00D09869 /* OCastLogger.swift */; };
 		97AF814220EA0EAD00C502D5 /* OCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AF813820EA0EAD00C502D5 /* OCast.framework */; };
 		97AF814920EA0EAD00C502D5 /* OCast.h in Headers */ = {isa = PBXBuildFile; fileRef = 97AF813B20EA0EAD00C502D5 /* OCast.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97DC974220EA229100DBB1B0 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC972720EA229100DBB1B0 /* Link.swift */; };
@@ -83,6 +84,7 @@
 		970856C22278A2B000175A1B /* TestOCastXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOCastXMLParser.swift; sourceTree = "<group>"; };
 		9726F0B920EFA6E400BAE3BC /* WifiSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiSecurity.h; sourceTree = "<group>"; };
 		9751ADC320F655C200815600 /* ReferenceDriverErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceDriverErrorCode.swift; sourceTree = "<group>"; };
+		977248A32281AC3C00D09869 /* OCastLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCastLogger.swift; sourceTree = "<group>"; };
 		97AF813820EA0EAD00C502D5 /* OCast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97AF813B20EA0EAD00C502D5 /* OCast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCast.h; sourceTree = "<group>"; };
 		97AF813C20EA0EAD00C502D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 			children = (
 				97DC972B20EA229100DBB1B0 /* XMLHelper.swift */,
 				97DC972C20EA229100DBB1B0 /* OCastLog.swift */,
+				977248A32281AC3C00D09869 /* OCastLogger.swift */,
 				97E3D9D6227891A7006D8D50 /* OCastXMLParser.swift */,
 				97DC972D20EA229100DBB1B0 /* HttpManager.swift */,
 			);
@@ -564,6 +567,7 @@
 				97DC97BA20EA302500DBB1B0 /* SSLClientCertificate.swift in Sources */,
 				97DC974620EA229100DBB1B0 /* OCastLog.swift in Sources */,
 				97DC974E20EA229100DBB1B0 /* MediaController.swift in Sources */,
+				977248A42281AC3C00D09869 /* OCastLogger.swift in Sources */,
 				8532EC052264B74A0080062F /* OCastDomainGeneral.swift in Sources */,
 				97DC975020EA229100DBB1B0 /* ReferenceLink.swift in Sources */,
 				9751ADC420F655C200815600 /* ReferenceDriverErrorCode.swift in Sources */,
